@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root {
+    --colorMain: #30363d;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper-content {
+    border: 1px solid #000;
+    background-color: #30363d;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main {
+    margin-top: 5px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    padding-right: 4%;
+    padding-left: 5%;
+}
+
+li {
+    color: #fff;
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--colorMain);
+    color: #fff;
+    border: 1px solid #000;
+    outline: none;
+    height: 55%;
+    font-size: 1.2rem;
+    padding-left: 2%;
+}
+input[type="submit"] {
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+    background-color: #30363d;
+}
+::-webkit-scrollbar-thumb {
+    padding-right: 5px;
+    background-color: #646e7a;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+    
+}
